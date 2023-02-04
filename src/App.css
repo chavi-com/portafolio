@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url('./fondo9.jpg')  ;
+  background-size: 100%;
+  
+  
 }
 
 .App-logo {
@@ -13,19 +17,41 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  min-height: 2400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+  /*background-image:url('./fondo2.jpg');*/
+  
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0bf933;
+  text-decoration: none;
+  text-shadow: 3px 1px rgba(207, 8, 45, 0.803);
+  position: absolute;
+  margin-top:-2250px;
+  
+}
+.App-perfil{
+  color: #021f07;
+  text-decoration: none;
+  
+  position: absolute;
+  margin-top:-2090px;
+  border: 3px solid rgba(207, 8, 45, 0.803);
+  background: rgba(104, 229, 208, 0.901);
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +61,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nombredevelop{
+  margin-top: -2300px;
+  position: absolute;
+}
+.ciudadlocation{
+  margin-top: -2170px;
+  position: absolute;
+}
+.mirepo{
+  background: rgba(0, 0, 0, 0.795);
+  width: 88%;
+  
+  position: absolute;
+  margin-top: 220px;
+  left: 5%;
+  color: rgb(94, 255, 0) ;
+  border-radius: 10px;
+  border: 2px solid rgba(207, 8, 45, 0.803);
+}
+@media (max-width: 600px) {
+  .mirepo {
+    margin-top: -300px;
+  }
+}
+
+
+.juegosjs{
+  position: flex;
+  text-align: center;
+  width: 94%;
+  color: rgb(240, 231, 219);
+  background: #0c0a08ae;
+  /*border: 2px solid rgb(17, 0, 255);*/
+  margin: 3%;
+  margin-top: -20px;
+  border-radius: 20px;
+  box-shadow: 1px 0px 5px 1px rgb(94, 255, 0);
+  padding-bottom: 5px;
+
+}
+.App-header{
+  /*background:black;*/
+  height: 100%;
+}
+body{
+  background: black;
+  height: 150%;
+}
+.titulorepo{
+  margin-bottom: 18px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  color: rgba(207, 8, 45, 0.803);
+  font-size: calc(17px + 3vmin); 
+  text-shadow:3px 2px #dae6dc5d;
+
+}
+.consumirapis{
+  position: flex;
+  text-align: center;
+  width: 94%;
+  border-radius: 20px;
+  border: 3px solid rgba(22, 144, 251, 0.486);
+  margin: 3%;
+  margin-top: -20px;
+  padding-bottom: 8px;
+  background: rgba(8, 251, 223, 0.218);
+}
+.juegos{
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+  width: 55%;
+  border: 1px solid red;
+  flex-direction: row;
+  padding-bottom: 5px;
 }

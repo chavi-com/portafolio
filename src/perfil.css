@@ -1,0 +1,76 @@
+.perfil {
+    text-align: center;
+    background-image: url('./fondo9.jpg')  ;
+    background-size: 100%;
+    
+    
+  }
+  .App-header {
+  
+    min-height: 2400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+    /*background-image:url('./fondo2.jpg');*/
+    
+  }
+  
+  .App-link {
+    color: #0bf933;
+    text-decoration: none;
+    text-shadow: 3px 1px rgba(207, 8, 45, 0.803);
+    position: absolute;
+    margin-top:-2250px;
+    
+  }
+  .App-perfil{
+    color: #021f07;
+    text-decoration: none;
+    
+    position: absolute;
+    margin-top:-2090px;
+    border: 3px solid rgba(207, 8, 45, 0.803);
+    background: rgba(104, 229, 208, 0.901);
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+  
+  }
+  .nombredevelop{
+    margin-top: -2300px;
+    position: absolute;
+  }
+  .ciudadlocation{
+    margin-top: -2170px;
+    position: absolute;
+  }
+  .info{
+    background: rgba(0, 0, 0, 0.795);
+    width: 88%;
+    
+    position: absolute;
+    margin-top: 220px;
+    left: 5%;
+    color: rgb(94, 255, 0) ;
+    border-radius: 10px;
+    border: 2px solid rgba(207, 8, 45, 0.803);
+  }
+  @media (max-width: 600px) {
+    .info {
+      margin-top: -300px;
+    }
+  }
+  .experiencia{
+    margin-bottom: 18px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    color: rgba(207, 8, 45, 0.803);
+    font-size: calc(17px + 3vmin); 
+    text-shadow:3px 2px #dae6dc5d;
+  
+  }

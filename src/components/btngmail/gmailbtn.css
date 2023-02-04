@@ -1,0 +1,23 @@
+.fixed-butgml {
+    position: fixed;
+    right: 0;
+    top: 56%;
+    transform: translateY(0%);
+    margin-right: 2px;
+  }
+  
+  .social-button {
+    padding: 18px;
+    padding-bottom: 0%;
+    color: white;
+    height: 15px;
+    text-align: center;
+    
+  
+  }
+  
+  .gmail {
+      
+    background-image: url('./icons8-gmail.svg');
+  }
+  

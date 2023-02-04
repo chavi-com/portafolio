@@ -1,0 +1,17 @@
+.menu{
+    background-color:  rgba(207, 8, 45, 0.63);
+    
+    
+}
+.letras{
+    color: aliceblue;
+}
+.logoperfil{
+    width: 10px;
+    position: relative;
+}
+.contper{
+    border:2px solid red;
+    width: 80px;
+    border-radius: 50%;
+}

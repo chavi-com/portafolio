@@ -1,0 +1,23 @@
+.aptitudes{
+    width: 90%;
+    height: 90%px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 5%;
+    background: rgba(250, 234, 234, 0.826);
+    box-shadow: 2px 1px 7px 3px rgba(207, 8, 45, 0.803);
+   
+}
+.title-apt{
+    color:#0d10d0d0;
+    text-shadow: 3px 1px #8e858b;
+    margin-top: -7px;
+    font-size: 25px ;
+    
+    
+}
+.description{
+    font-size: 17px;
+    color: #362f33;
+    margin-top: 3px;
+}

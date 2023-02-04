@@ -1,0 +1,33 @@
+.portada{
+    width: 99%;
+    height: 200px;
+    border: 3px solid rgba(23, 198, 229, 0.37);
+    margin:auto;
+    margin-bottom: 80px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgba(36, 212, 252, 0.715);
+    background-repeat: repeat-y;
+    position:relative;
+    overflow: hidden; /* agregar esta propiedad */
+}
+
+@keyframes moverImagen {
+    from {
+      transform: translateY(-0);
+    }
+    to {
+      transform: translateY(50%);
+    }
+}
+
+.imgportada{
+    animation: moverImagen infinite linear 50s; /* ajustar el tiempo */
+    object-fit: cover;
+    width: 100%;
+    margin-top: -500px;
+    height: 400%;
+     /* agregar esta propiedad */
+    margin-bottom: 0px;
+    background-repeat: repeat-y;
+}

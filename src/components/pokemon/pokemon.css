@@ -1,0 +1,20 @@
+.pokemon-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pokemon-card {
+    flex: 1 0 calc(22% - 20px);
+    margin: 8px;
+    width: 200px;
+    border: 1px solid rgb(255, 238, 0);
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.821);
+    box-shadow: 1px 0px 5px 1px rgb(208, 255, 0);
+
+  }
+  .buscarpk{
+    border: 2px solid rgb(94, 255, 0);
+    border-radius: 8px;
+    background: rgba(231, 179, 245, 0.247);
+  }
