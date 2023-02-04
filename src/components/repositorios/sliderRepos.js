@@ -22,6 +22,7 @@ import servidorotelv from './servidorotelv.png';
 import servidorbiblioteca from './servidorbiblioteca.jfif';
 import servibiblio from './servibiblio.png';
 import repoporta from './repoporta.png';
+import reporss from './reporss.png';
 
 
 function UncontrolledExample() {
@@ -76,12 +77,14 @@ function UncontrolledExample() {
       <Card style={{ width: '13rem',position:'flex ' }}>
       <Card.Img className='fotorepo' variant="top" src={servidorbiblioteca} />
       <Card.Body>
-        <Card.Title>Servidor biblioteca</Card.Title>
+        <Card.Title>Servidor notas U</Card.Title>
 
         <Card.Img className='porcentajere' src={servibiblio}/>
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com/notas'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -93,8 +96,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={blibliolegng}/>
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com/phpBliblioteca'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -106,8 +111,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={legtienda}/>
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com/tienda'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -119,8 +126,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={ventasxf}/>
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com/ventas_facebook'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -132,8 +141,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={hotelpor} />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -145,8 +156,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={restauranteleg} />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -158,8 +171,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={hotelpor} />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -172,8 +187,11 @@ function UncontrolledExample() {
         <Card.Img className='porcentajere' src={hotelpor} />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
-      </Card.Body>
+        <a className='enlasesrepo' href='https://github.com/chavi-com'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
+
+        </a>
+        </Card.Body>
     </Card>
       </Carousel.Item>
       <Carousel.Item {...settings} className={'contentRepo'} >
@@ -182,10 +200,12 @@ function UncontrolledExample() {
       <Card.Body>
         <Card.Title>Portafilio</Card.Title>
 
-        <Card.Img className='porcentajere' src={hotelpor} />
+        <Card.Img className='porcentajere' src={reporss} />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com/portafolio'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -197,8 +217,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={capaspor} />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com/arquitecturadeCapasC-'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -210,8 +232,10 @@ function UncontrolledExample() {
 
         <Card.Img className='porcentajere' src={servidorotelv} />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
       </Card.Body>
     </Card>
       </Carousel.Item>
@@ -221,12 +245,15 @@ function UncontrolledExample() {
       <Card style={{ width: '13rem',position:'flex ' }}>
       <Card.Img className='fotorepo' variant="top" src="https://cdn.shopify.com/s/files/1/0229/0839/files/pagina_web.jpg?v=1654027275" />
       <Card.Body>
-        <Card.Title>ver mas en git</Card.Title>
+        <Card.Title>Ver mas en git</Card.Title>
 
         <Card.Img className='porcentajere' src="https://www.soyunignorante.es/wp-content/uploads/2020/10/merge-two-git-repo.png" />
         <Card.Img className='logogit' src="https://cdn-icons-png.flaticon.com/512/38/38401.png" />
+        <a className='enlasesrepo' href='https://github.com/chavi-com'>
+          <Button className='botongit' variant="primary">Ver en Github</Button>
 
-        <Button className='botongit' variant="primary">Ver en Github</Button>
+        </a>
+
       </Card.Body>
     </Card>
       </Carousel.Item>

@@ -30,7 +30,7 @@ class SocialButtons extends Component {
     let positionClass = this.state.fixed ? 'fixed-buttons' : 'static-buttons';
     return (
       <div className={positionClass}>
-        <a href="https://api.whatsapp.com/send?phone=+573052102814" className="social-button whatsapp" target="_blank">
+        <a href="https://wa.me/message/D2A4Q5LLS5AOG1" className="social-button whatsapp" target="_blank">
           <i className="fa fa-whatsapp"></i>
           
         </a>

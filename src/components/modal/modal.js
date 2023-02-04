@@ -32,7 +32,7 @@ const Modal = () => {
             <p>Medellin-colombia</p>
             <p>Desarrollador web </p>
             <p>Graduado en universidad privada Cesde</p>
-            <p>Experiencia laboral en Comfama"trasformacion servicios financieros"</p>
+            <p>Experiencia laboral en Comfama"transformacion servicios financieros"</p>
             <p>Contactame:   cell +57 3052102814, correo Edizonchavi@gmail.com </p>
             <Aptitudes></Aptitudes>
             <button className="close-modal-button" onClick={handleCloseModal}>

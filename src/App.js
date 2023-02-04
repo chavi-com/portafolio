@@ -38,7 +38,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Fullstack developer software
+          Full stack software developer
         </a>
         
         <h6 className='ciudadlocation'>

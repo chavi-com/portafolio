@@ -26,7 +26,7 @@ function BasicExample() {
                 Github: https://github.com/chavi-com
               </NavDropdown.Item>
               <NavDropdown.Item href="https://wa.me/message/D2A4Q5LLS5AOG1" src="">
-                whatsapp: +57 3052102814
+                WhatsApp: +57 3052102814
               </NavDropdown.Item>
               <NavDropdown.Item href="https://www.linkedin.com/in/edison-chavarria-2441a123a/" src="">
                 linkedin: https://www.linkedin.com/in/edison-chavarria-2441a123a/
