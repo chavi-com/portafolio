@@ -1,7 +1,7 @@
 .game15-container {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     border:6px solid  rgba(240, 15, 248, 0.767);
     padding: 3px;
@@ -17,7 +17,7 @@
   }
   
   .number {
-    width: 23.3%;
+    width: 21.7%;
     height: 23%;
     display: flex;
     align-items: center;

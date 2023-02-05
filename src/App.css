@@ -81,7 +81,7 @@
   border-radius: 10px;
   border: 2px solid rgba(207, 8, 45, 0.803);
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .mirepo {
     margin-top: -300px;
   }
@@ -91,7 +91,7 @@
 .juegosjs{
   position: flex;
   text-align: center;
-  width: 94%;
+  width: 90%;
   color: rgb(240, 231, 219);
   background: #0c0a08ae;
   /*border: 2px solid rgb(17, 0, 255);*/
