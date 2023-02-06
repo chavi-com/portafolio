@@ -71,12 +71,14 @@
   }
 
 .contper{
-  width: 100px;
+  width: 14%;
   border: 3px solid rgba(35, 8, 207, 0.803);
   position: flex;
-  margin-left: 42% ;
   border-radius: 50%;
-  margin-top: 2%;
+  margin-top: 9%;
+  text-align: center;
+  margin-left: 43%;
+  margin-right: 43%;
   
 }
 .imgper{

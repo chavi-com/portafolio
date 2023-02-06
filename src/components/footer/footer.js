@@ -17,7 +17,7 @@ function Footer() {
         <div className="col">
           <h5 className='text-footer'>CONTACTO DEL PROGRAMADOR:</h5>
           <h5>edizonchavi@gmail.com</h5>
-          <h5>+57 3052102014</h5>
+          <h5>+57 3052102814</h5>
           <h5> https://www.linkedin.com/in/edison-chavarria-2441a123a/</h5>
           <h5>https://github.com/chavi-com</h5>
         </div>
